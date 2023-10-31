@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "declaration": true, /* 生成相关的 '.d.ts' 文件。 */
+        "module": "esnext", // add this line
+        "target":"es2015",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+    },
+    "include": [
+        "src/*.ts",
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "types",
+        "src/index.ts",
+        "src/core/opentelemetry.ts"
+    ],
+    "exclude": ["node_modules"],
+}
